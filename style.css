@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding:0;
+}
+
+#search{
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo {
+	height: 95; width: 269;
+
+	padding-top: 112px;
+}
+
+#searchbox{
+	border: 1px solid gray; 
+	padding: 0px; margin: 0px; 
+	height: auto; width: 50%;  
+	z-index: 6; left: 0px; 
+	outline: medium none;
+}
+
+#searchbox:focus {
+	border: 1px solid blue;
+}
+

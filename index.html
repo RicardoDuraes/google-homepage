@@ -1,0 +1,30 @@
+<doctype! html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<title>Google Wannabe</title>
+	</head>
+
+	<body>
+		<div id="search">
+			<a href="http://www.google.com">
+				<img id="logo" src="https://www.google.com/images/srpr/logo11w.png"/>
+			</a>
+
+			<form action="http://www.google.com/search" method="GET" name="google_search">
+				<input id="searchbox" type="text" name="search"/>
+				<input type="submit" value="Google Search"/>
+			</form>
+			<!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+<!-- The terms of service are available at http://www.google.com/cse/docs/tos.html -->
+<form name="cse" id="searchbox_demo" action="http://www.google.com/cse">
+  <input type="hidden" name="cref" value="" />
+  <input type="hidden" name="ie" value="utf-8" />
+  <input type="hidden" name="hl" value="" />
+  <input name="q" type="text" size="40" />
+  <input type="submit" name="sa" value="Search" />
+</form>
+		</div>
+	</body>
+</html>
